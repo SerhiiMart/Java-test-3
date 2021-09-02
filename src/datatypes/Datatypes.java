@@ -23,6 +23,8 @@ public class Datatypes {
 		System.out.println(theLong);
 		System.out.println(theFloat);
 		System.out.println(theDouble);
+		System.out.println(theBoolean);
+		System.out.println(theSingleLetter);
 		
 	////Complex datatypes
 			Date date = new Date();
