@@ -37,10 +37,31 @@ public class Datatypes {
 		LocalDate now = LocalDate.now();
 		System.out.println(now);
 		
+	////prim and ref difference
+		int a = 20;
+		int b = a;
+		a = 350;
+		System.out.println("a=" + a + ", " + "b=" + b);
+		
+		Person alex = new Person("Alex");
+		Person amber = alex;
+		
+		
+		System.out.println("Before change of alexPerson : " + alex.name + ", " + amber.name);
+		alex.name = "Alexandra";
+		System.out.println("After change of alexPerson : " + alex.name + ", " + amber.name);
 	////Complex datatypes
 			Date date = new Date();
 			System.out.println(date);
 			
+	}
+	//Ref type / Object
+	static class Person {
+		String name;
+		
+		Person(String name) {
+			this.name = name;
+		}
 	}
 
 }
