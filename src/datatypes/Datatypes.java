@@ -7,7 +7,7 @@ public class Datatypes {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-	////Simple datatypes
+	////Primitive datatypes
 		byte theByte = -128;
 		short theShort = -32_768;
 		int theInt = -2_147_483_648;
@@ -17,6 +17,7 @@ public class Datatypes {
 		
 		boolean theBoolean = true;
 		char theSingleLetter = 'S';
+		
 		System.out.println(theByte);
 		System.out.println(theShort);
 		System.out.println(theInt);
@@ -25,6 +26,13 @@ public class Datatypes {
 		System.out.println(theDouble);
 		System.out.println(theBoolean);
 		System.out.println(theSingleLetter);
+		
+		
+	////  Reference Types
+		
+		String name = new String("Serhii");		
+		
+		System.out.println(name);
 		
 	////Complex datatypes
 			Date date = new Date();
