@@ -17,12 +17,17 @@ public class Datatypes {
 		
 		boolean theBoolean = true;
 		char theSingleLetter = 'S';
+		System.out.println(theByte);
+		System.out.println(theShort);
+		System.out.println(theInt);
+		System.out.println(theLong);
+		System.out.println(theFloat);
 		System.out.println(theDouble);
 		
 	////Complex datatypes
 			Date date = new Date();
 			System.out.println(date);
-
+			
 	}
 
 }
