@@ -9,9 +9,9 @@ public class Datatypes {
 		
 	////Simple datatypes
 		byte theByte = -128;
-		short theShort = -32768;
-		int theInt = -2147483648;
-		long theLong = -9223372036854775808L;
+		short theShort = -32_768;
+		int theInt = -2_147_483648;
+		long theLong = -9_223_372_036_854_775_808L;
 		float theFloat = -3.4028235F;
 		double theDouble = -1.7976931348623157E+308;
 		
