@@ -1,4 +1,5 @@
 package datatypes;
+import java.time.LocalDate;
 import java.util.Date;
 
 
@@ -31,8 +32,10 @@ public class Datatypes {
 	////  Reference Types
 		
 		String name = new String("Serhii");		
+		System.out.println(name.toLowerCase());
 		
-		System.out.println(name);
+		LocalDate now = LocalDate.now();
+		System.out.println(now);
 		
 	////Complex datatypes
 			Date date = new Date();
