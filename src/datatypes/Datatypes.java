@@ -28,13 +28,21 @@ public class Datatypes {
 //		System.out.println(theBoolean);
 //		System.out.println(theSingleLetter);
 		
-	//// Class type
+	//// Class String type
 		
 		String name = new String("Serhii");		
-		System.out.println(name.toUpperCase());	
-		System.out.println(name.toLowerCase());	
-		System.out.println(name.charAt(3));	
-		System.out.println(name.contains("r"));	
+//		System.out.println(name.toUpperCase());	
+//		System.out.println(name.toLowerCase());	
+//		System.out.println(name.charAt(3));	
+//		System.out.println(name.contains("r"));	
+//		System.out.println(name.equals("Alex"));	
+		
+		String lastname = "Lamost";
+		String fullName = name.concat(" ").concat(lastname);
+		System.out.println(fullName);
+		
+		String fullName1 = name + " " + lastname;
+		System.out.println(fullName1);
 		
 	////  Reference Types
 		
