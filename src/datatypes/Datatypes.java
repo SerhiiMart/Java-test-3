@@ -2,7 +2,8 @@ package datatypes;
 
 
 
-import java.time.LocalDate;
+//import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.Date;
 
 
@@ -48,10 +49,16 @@ public class Datatypes {
 		String fullName1 = name + " " + lastname;
 		System.out.println(fullName1);
 		
-	////  Reference Types
+	////  LocalDate Types
 		
-		LocalDate now = LocalDate.now();
+//		LocalDate now = LocalDate.now();
+		// (Or without import ):
+		java.time.LocalDate now = java.time.LocalDate.now();
 		System.out.println(now);
+		
+		LocalDateTime localDateTime = LocalDateTime.now();
+		System.out.println(localDateTime);
+		
 		
 	////prim and ref difference
 //		int a = 20;
