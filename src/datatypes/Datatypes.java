@@ -28,11 +28,12 @@ public class Datatypes {
 		System.out.println(theBoolean);
 		System.out.println(theSingleLetter);
 		
-		
-	////  Reference Types
+	//// Class type
 		
 		String name = new String("Serhii");		
-		System.out.println(name);
+		System.out.println(name);	
+		
+	////  Reference Types
 		
 		LocalDate now = LocalDate.now();
 		System.out.println(now);
