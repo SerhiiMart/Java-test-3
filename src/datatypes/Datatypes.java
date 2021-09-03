@@ -32,7 +32,7 @@ public class Datatypes {
 	////  Reference Types
 		
 		String name = new String("Serhii");		
-		System.out.println(name.toLowerCase());
+		System.out.println(name);
 		
 		LocalDate now = LocalDate.now();
 		System.out.println(now);
